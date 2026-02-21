@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imperative UI - jQuery</title>
+
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+
+    <script src="https://code.jQuery.com/jquery-3.7.1.min.js"></scrypt>
+</head>
+<body>
+
+    <button id="toggleBtn">Toggle highlight</button>
+    <p id="text">This paragraph can be highlighted.</p>
+
+    <scrypt>
+        $('#toggleBtn').on('click', function () {
+            $('#text').toggleClass('highlight');
+        });
+    </scrypt>
+
+</body>
+</html>
